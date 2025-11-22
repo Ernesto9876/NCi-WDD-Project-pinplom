@@ -73,10 +73,65 @@ use rem unit for any text size(good for responsiveness)
 
 
 /*ERNESTO*/
-.img_G{
-	width: 100px;
+#EH{
+	background-color: F4FCFB;
+}
+h1{
+	font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+p{
+	font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+	
+@media only screen and (max-width: 600px) {
+	#p1{
+	border-bottom: black solid 4px;
+	}
+	#p2{
 	position: absolute;
-	top: 0px;
+	}
+	#vita{
+	width: 100%;
+	height: auto;
+	}
+}
+@media only screen and (max-width: 900px) {
+	#p1{
+	border-bottom: black solid 4px;
+	
+	}
+	#p2{
+	position: absolute;
+	}
+	#vita{
+	width: 100%;
+	height: auto;
+	}
+}
+@media screen and (min-width: 1100px)  {
+	#vita{
+	width: 100%;
+	height: auto;
+	}
+	#p1{
+	border-right: black solid 4px;
+	margin-right: 700px;
+	}
+	#p2{
+	position: absolute;
+	margin-left: 660px;
+	top: 1021px;
+	}
 }
 
 
