@@ -94,21 +94,42 @@ p{
 }
 	
 @media only screen and (max-width: 600px) {
+	
+	#columm{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	#p1{
 	border-bottom: black solid 4px;
 	}
 	#p2{
 	position: absolute;
-	}
+	}file:///C:/Users/uevor/Desktop/webs/WDD/w.jpg
 	#vita{
 	width: 100%;
 	height: auto;
+	}
+	#water{
+	width: 100%;
+	height: auto;
+	}
+	#pa1{
+	border-bottom: black solid 4px;
+	margin-bottom: 4px;
+	}
+	#pa2{
+	border-bottom: black solid 4px;
+	margin-bottom: 4px;
 	}
 }
 @media only screen and (max-width: 900px) {
+	
+	#columm{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	#p1{
 	border-bottom: black solid 4px;
-	
 	}
 	#p2{
 	position: absolute;
@@ -117,20 +138,39 @@ p{
 	width: 100%;
 	height: auto;
 	}
+	#water{
+	width: `100%;
+	height: auto;
+	}
+	#pa1{
+	border-bottom: black solid 4px;
+	margin-bottom: 4px;
+	}
+	#pa2{
+	border-bottom: black solid 4px;
+	margin-bottom: 4px;
+	}
+	
 }
 @media screen and (min-width: 1100px)  {
+	
 	#vita{
 	width: 100%;
 	height: auto;
 	}
-	#p1{
-	border-right: black solid 4px;
-	margin-right: 700px;
+	#water{
+	width: 100%;
+	height: auto;
 	}
-	#p2{
-	position: absolute;
-	margin-left: 660px;
-	top: 1021px;
+	#columm{
+		column-count: 3;
+		column-rule: 4px solid black;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#columm2{
+		column-count: 2;
+		column-rule: 4px solid black;
 	}
 }
 
