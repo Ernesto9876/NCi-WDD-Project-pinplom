@@ -1,13 +1,12 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>   </title>
 		<!-- Meta Tags -->
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="author" content="Ernesto">
 
-			<title>Ohome - Page Title</title>
+		<title> Ohome - Sanitation, Hygiene and Water Protection</title>
 			
             <!-- Bootstrap v5.3.8 -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -39,8 +38,8 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">​Environmental Protection</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="shourya page 1.html">Water Quality & Wastewater Treatment</a></li>
-								<li><a class="dropdown-item" href="shourya page 2.html">Water Ecosystems</a></li>
+								<li><a class="dropdown-item" href="shouryapage1.html">Water Quality & Wastewater Treatment</a></li>
+								<li><a class="dropdown-item" href="shouryapage2.html">Water Ecosystems</a></li>
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
@@ -62,30 +61,46 @@
 		</nav>
 	</header>	
 	<main class="container">
-		<h1>Something</h1>
+		<h1 class="li1">Sanitation, Hygiene and Water Protection</h1>
 			<div id="columm">
 		<div id="pa1">
-			<img id="water" src="https://studentncirl-my.sharepoint.com/:i:/r/personal/x25408666_student_ncirl_ie/Documents/NCI/wdd/Group%20S%20-%20WDD%20CA/website/images/w1.jpg?csf=1&web=1&e=0UukTM" alt="water 1" >
-			<h1>Something</h1>
+			<img id="water" src="\img\w1.jpg" alt="water 1" >
+			<h2>Sanitation</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
 			In id cursus mi pretium tellus duis convallis. </p>
 		</div >
 		<div id="pa2">
-			<img id="water" src="https://studentncirl-my.sharepoint.com/:i:/r/personal/x25408666_student_ncirl_ie/Documents/NCI/wdd/Group%20S%20-%20WDD%20CA/website/images/w2.jpg?csf=1&web=1&e=NcAbE9" alt="water 2" >
-			<h1>Something</h1>
+			<img id="water" src="\img\w2.jpg" alt="water 2" >
+			<h2>Hygiene</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
 			In id cursus mi pretium tellus duis convallis.  </p>
 		</div>
 		<div id="pa3">
-			<img id="water" src="https://studentncirl-my.sharepoint.com/:i:/r/personal/x25408666_student_ncirl_ie/Documents/NCI/wdd/Group%20S%20-%20WDD%20CA/website/images/w3.jpg?csf=1&web=1&e=F8xmuc" alt="water 3" >
-			<h1>Something</h1>
+			<img id="water" src="\img\w3.jpg" alt="water 3" >
+			<h2>Water Protection</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
 			In id cursus mi pretium tellus duis convallis. </p>
 		</div>
 			</div>
-	</main>
+		<h2 class="mt-5">Contact / Support</h2>
 
+		<form id="myForm" novalidate>
+			<label for="name">Name:</label>
+				<input type="text" id="name" required minlength="3">
 			
+			<label for="email">Email:</label>
+				<input type="email" id="email" required>
+
+			<label for="msg">Message:</label>
+				<textarea id="msg" required minlength="10"></textarea>
+
+			<button type="submit">Send</button>
+			<p id="formMessage"></p>
+		</form>
+
+	</main>
+			<script src="javier.js"></script>
+
 		    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
 			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
 			crossorigin="anonymous"></script>
