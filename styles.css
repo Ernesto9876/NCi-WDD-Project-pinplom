@@ -255,6 +255,17 @@ use rem unit for any text size(good for responsiveness)
 
 
 /*ERNESTO*/
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+}
+
 #EH{
 	background-color: F4FCFB;
 }
@@ -291,7 +302,7 @@ p{
 	width: 100%;
 	height: auto;
 	}
-	#water{
+	.img-fluid{
 	width: 100%;
 	height: auto;
 	}
