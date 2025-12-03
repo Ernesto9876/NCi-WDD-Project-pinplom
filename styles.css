@@ -265,11 +265,12 @@ form input, form textarea {
   padding: 6px;
   margin-top: 4px;
 }
-
+/* Styling for element with ID 'eh' */
 #eh {
 	background-color: #698696;
 	color: #F4FCFB;
 }
+/* Heading styles with DynaPuff font */
 .li2{
 	font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
@@ -278,6 +279,7 @@ form input, form textarea {
   font-variation-settings:
     "wdth" 100;
 }
+
 .li1{
 	font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
@@ -286,6 +288,7 @@ form input, form textarea {
   font-variation-settings:
     "wdth" 100;
 }
+/* Paragraph styling with Truculenta font */
 .parra{
 	font-family: "Truculenta", sans-serif;
   font-optical-sizing: auto;
@@ -304,7 +307,7 @@ form input, form textarea {
     "wdth" 100;
 	font-size: 25px;
 }
-
+/* Paragraph styling with Truculenta font */
 @media only screen and (max-width: 600px) {
 	
 	#columm{
@@ -320,7 +323,7 @@ form input, form textarea {
 	width: 100%;
 	height: auto;
 	}
-	.img-fluid{
+	.imgfluida{
 	width: 100%;
 	height: auto;
 	}
@@ -333,6 +336,7 @@ form input, form textarea {
 	margin-bottom: 4px;
 	}
 }
+/* Media query for medium screens (≤900px) */
 @media only screen and (max-width: 900px) {
 	
 	#columm{
@@ -346,7 +350,7 @@ form input, form textarea {
 	width: 100%;
 	height: auto;
 	}
-	.img-fluid{
+	.imgfluida{
 	width: `100%;
 	height: auto;
 	}
@@ -360,22 +364,25 @@ form input, form textarea {
 	}
 	
 }
+/* Media query for large screens (≥1100px) */
 @media screen and (min-width: 1100px)  {
 	
 	#vita{
 	width: 100%;
 	height: auto;
 	}
-	.img-fluid{
+	.imgfluida{
 	width: 100%;
 	height: auto;
 	}
+	/* Multi-column layout for #columm */
 	#columm{
 		column-count: 3;
 		column-rule: 4px solid #F4FCFB;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	/* Two-column layout for #columm2 */
 	#columm2{
 		column-count: 2;
 		column-rule: 4px solid #F4FCFB;
