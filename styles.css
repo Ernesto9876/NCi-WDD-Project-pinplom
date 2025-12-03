@@ -266,10 +266,11 @@ form input, form textarea {
   margin-top: 4px;
 }
 
-#EH{
-	background-color: F4FCFB;
+#eh {
+	background-color: #698696;
+	color: #F4FCFB;
 }
-h1{
+.li2{
 	font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -277,27 +278,44 @@ h1{
   font-variation-settings:
     "wdth" 100;
 }
-p{
-	font-family: "Truculenta", sans-serif;
+.li1{
+	font-family: "DynaPuff", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
-	
+.parra{
+	font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	font-size: 25px;
+}
+.erre{
+		font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	font-size: 25px;
+}
+
 @media only screen and (max-width: 600px) {
 	
 	#columm{
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
 	#p1{
-	border-bottom: black solid 4px;
+	border-bottom: #F4FCFB solid 4px;
 	}
-	#p2{
-	position: absolute;
-	}file:///C:/Users/uevor/Desktop/webs/WDD/w.jpg
+	
 	#vita{
 	width: 100%;
 	height: auto;
@@ -307,11 +325,11 @@ p{
 	height: auto;
 	}
 	#pa1{
-	border-bottom: black solid 4px;
+	border-bottom: #F4FCFB solid 4px;
 	margin-bottom: 4px;
 	}
 	#pa2{
-	border-bottom: black solid 4px;
+	border-bottom: #F4FCFB solid 4px;
 	margin-bottom: 4px;
 	}
 }
@@ -322,25 +340,22 @@ p{
 		padding-right: 10px;
 	}
 	#p1{
-	border-bottom: black solid 4px;
-	}
-	#p2{
-	position: absolute;
+	border-bottom: #F4FCFB solid 4px;
 	}
 	#vita{
 	width: 100%;
 	height: auto;
 	}
-	#water{
+	.img-fluid{
 	width: `100%;
 	height: auto;
 	}
 	#pa1{
-	border-bottom: black solid 4px;
+	border-bottom: #F4FCFB solid 4px;
 	margin-bottom: 4px;
 	}
 	#pa2{
-	border-bottom: black solid 4px;
+	border-bottom: #F4FCFB solid 4px;
 	margin-bottom: 4px;
 	}
 	
@@ -351,19 +366,19 @@ p{
 	width: 100%;
 	height: auto;
 	}
-	#water{
+	.img-fluid{
 	width: 100%;
 	height: auto;
 	}
 	#columm{
 		column-count: 3;
-		column-rule: 4px solid black;
+		column-rule: 4px solid #F4FCFB;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 	#columm2{
 		column-count: 2;
-		column-rule: 4px solid black;
+		column-rule: 4px solid #F4FCFB;
 	}
 }
 
